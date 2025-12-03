@@ -12,6 +12,10 @@ This repository contains an **UI automation framework** built using
 - Git
 - Clone the repository
 
+#### Note on excluded env.js file
+    Please note that the file env.js from src/config was intentionally excluded from this repository because it was added to .gitignore to avoid committing environment specific configuration values. This file is required to execute the Playwright tests, as it contains environment settings used during test execution. 
+    To ensure smooth review, I have provided a complete runnable ZIP package that includes the missing env.js file and the required configuration. 
+
 ### Install Dependencies
 
     npm install
